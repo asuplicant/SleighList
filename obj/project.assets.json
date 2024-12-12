@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\52233446852\\.nuget\\packages\\": {}
+    "C:\\Users\\39910759896\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\52233446852\\Desktop\\SleighList\\SleighList.csproj",
+      "projectUniqueName": "C:\\Users\\39910759896\\Desktop\\Projeto SleighList\\SleighList\\SleighList.csproj",
       "projectName": "SleighList",
-      "projectPath": "C:\\Users\\52233446852\\Desktop\\SleighList\\SleighList.csproj",
-      "packagesPath": "C:\\Users\\52233446852\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\52233446852\\Desktop\\SleighList\\obj\\",
+      "projectPath": "C:\\Users\\39910759896\\Desktop\\Projeto SleighList\\SleighList\\SleighList.csproj",
+      "packagesPath": "C:\\Users\\39910759896\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\39910759896\\Desktop\\Projeto SleighList\\SleighList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\52233446852\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\39910759896\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -69,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
