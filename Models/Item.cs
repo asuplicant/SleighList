@@ -9,15 +9,13 @@ namespace SleighList.Models
     {
         [Key]
         public int ItemID { get; set; }
+        public string? Nome { get; set; }
+        public int Quantidade { get; set; }
+        public int PrecoUnidade { get; set; }
 
+        [ForeignKey("Usuario")]
+        public int? UsuarioID {get; set;}
+        public Usuario? Usuario {get; set;}
 
-        public string? Nome;
-        public float PrecoUnidade;
-        public int Quantidade;
-        
-
-        [ForeignKey("UsuarioID")]
-        public int? UsuarioID { get; set; }
-        public Item? item { get; set; }
     }
 }
