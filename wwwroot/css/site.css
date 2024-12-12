@@ -1,22 +1,94 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 2px solid #8fcf8b; /* Green border */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    background-image: url('cat-and-christmas-tree.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: #fff;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.login-section {
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+
+.login-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.login-form a {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.login-form button {
+    background-color: #8c1c1c; /* Burgundy button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #a02323;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    background-color: #a82323;
+    padding: 10px;
+    color: white;
 }

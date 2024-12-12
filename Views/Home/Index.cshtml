@@ -1,34 +1,33 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SleighList Login</title>
-    <link href="styles.css" rel="stylesheet">
+    <title>Página de Login - SleighList</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
 </head>
+
 <body>
-    <div class="login-page">
-        <div class="login-header">
-            <div class="logo">SleighList</div>
-            <p>Deixe a correria para o Papai Noel, organize tudo com o SleighList.</p>
-            <img src="cat-in-tree.jpg" alt="Gato em uma árvore de Natal" class="header-image">
-        </div>
-        <div class="login-box">
+    <header>
+       <img src="wwwroot/images/Group 25.png" alt="">
+    </header>
+    <main>
+        <div class="login-section">
             <h2>Acesse Sua Conta</h2>
-            <form>
-                <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="Digite seu e-mail">
-
-                <label for="senha">Senha</label>
-                <input type="password" id="senha" placeholder="Digite sua senha">
-
-                <a href="#" class="forgot-password">Esqueci minha senha</a>
-                <button type="submit" class="login-button">Acessar</button>
+            <form class="login-form">
+                <input type="email" placeholder="E-mail" required>
+                <input type="password" placeholder="Senha" required>
+                <a href="#">Esqueci minha senha</a>
+                <button type="submit">Acessar</button>
             </form>
         </div>
-        <footer>
-            <p>&copy; 2024 - SEDUC - Agenda Natal</p>
-        </footer>
-    </div>
+    </main>
+    <footer>
+        <div class="footer">
+            &copy; 2024 - SEDUC - Agenda Natal
+        </div>
+    </footer>
 </body>
+
 </html>
