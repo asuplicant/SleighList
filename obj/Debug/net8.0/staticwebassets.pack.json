@@ -5,16 +5,24 @@
       "PackagePath": "staticwebassets\\SleighList.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\52233446852\\Desktop\\SleighList\\wwwroot\\Images\\Group 25.png",
-      "PackagePath": "staticwebassets\\Images\\Group 25.png"
-    },
-    {
       "Id": "C:\\Users\\52233446852\\Desktop\\SleighList\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\52233446852\\Desktop\\SleighList\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\52233446852\\Desktop\\SleighList\\wwwroot\\images\\fundo_gato.png",
+      "PackagePath": "staticwebassets\\images\\fundo_gato.png"
+    },
+    {
+      "Id": "C:\\Users\\52233446852\\Desktop\\SleighList\\wwwroot\\images\\header_completa.png",
+      "PackagePath": "staticwebassets\\images\\header_completa.png"
+    },
+    {
+      "Id": "C:\\Users\\52233446852\\Desktop\\SleighList\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
       "Id": "C:\\Users\\52233446852\\Desktop\\SleighList\\wwwroot\\js\\site.js",

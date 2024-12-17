@@ -1,33 +1,27 @@
-﻿<!DOCTYPE html>
-<html lang="pt-BR">
+﻿@* Tela de login *@
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Login - SleighList</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link para o CSS -->
-</head>
-
-<body>
-    <header>
-       <img src="wwwroot/images/Group 25.png" alt="">
-    </header>
-    <main>
-        <div class="login-section">
-            <h2>Acesse Sua Conta</h2>
-            <form class="login-form">
-                <input type="email" placeholder="E-mail" required>
-                <input type="password" placeholder="Senha" required>
-                <a href="#">Esqueci minha senha</a>
-                <button type="submit">Acessar</button>
-            </form>
+@* Cabeçalho/Menu *@
+<header class="header_login">
+    <h1 style="display: none;">Tela login</h1>
+    @* <img src="~/images/logo.png" alt="Logo do SleighList"> *@
+    @* <img src="~/images/fundo_gato.png" alt="Fundo Gatinho"> *@
+    <img src="~/images/header_completa.png" alt="Fundo Gatinho" height="800" width="2200">
+    <p>Deixe a correria para o Papai Noel, organize tudo com o SleighList.</p>
+</header>
+<main class="main_login">
+    <form action="">
+        <h2>Acesse sua conta</h2>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email">
         </div>
-    </main>
-    <footer>
-        <div class="footer">
-            &copy; 2024 - SEDUC - Agenda Natal
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha">
         </div>
-    </footer>
-</body>
-
-</html>
+        <button type="submit">Acessar</button>
+    </form>
+</main>
+<footer>
+    <p>© 2024 - SEDUC - Agenda Natal</p>
+</footer>

@@ -1,114 +1,13 @@
 /* _content/SleighList/Views/Home/Index.cshtml.rz.scp.css */
 *[b-acp5oohxnx] {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body[b-acp5oohxnx] {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  .header[b-acp5oohxnx] {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    overflow: hidden; 
-  }
-  
-  .header-image[b-acp5oohxnx] {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .overlay[b-acp5oohxnx] {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .title[b-acp5oohxnx] {
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  .subtitle[b-acp5oohxnx] {
-    font-size: 1.2rem;
-    margin-top: 10px;
-  }
-  
-  .login-container[b-acp5oohxnx] {
-    max-width: 400px;
-    margin: 40px auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .login-container h2[b-acp5oohxnx] {
-    margin-bottom: 20px;
-  }
-  
-  label[b-acp5oohxnx] {
-    display: block;
-    margin-top: 10px;
-    text-align: left;
-  }
-  
-  input[b-acp5oohxnx] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .forgot-password[b-acp5oohxnx] {
-    display: block;
-    margin: 10px 0;
-    font-size: 0.9rem;
-    color: #007BFF;
-    text-decoration: none;
-  }
-  
-  .forgot-password:hover[b-acp5oohxnx] {
-    text-decoration: underline;
-  }
-  
-  .login-button[b-acp5oohxnx] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #8B0000;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .login-button:hover[b-acp5oohxnx] {
-    background-color: #a30000;
-  }
-  
-  footer[b-acp5oohxnx] {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.9rem;
-    color: #666;
-  }
-  
+  padding: 0;
+}
+
+.header_login[b-acp5oohxnx] {
+  background-image: url("/images/header_completa.png");
+  width: 1000px;
+  height: 1920px;
+  margin-top: -20;
+
+}
 /* _content/SleighList/Views/Shared/_Layout.cshtml.rz.scp.css */
